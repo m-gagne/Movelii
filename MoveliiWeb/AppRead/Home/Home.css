@@ -1,0 +1,14 @@
+﻿/* Page-specific styling */
+
+.info {
+    margin: 20px 0 20px 0;
+}
+
+#searchResults li {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+span.ms-Button-label > strong {
+    color: #2B88D8;
+}

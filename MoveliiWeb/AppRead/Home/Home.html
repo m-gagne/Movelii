@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../../Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <link rel="stylesheet" href="//appsforoffice.microsoft.com/fabric/1.0/fabric.min.css">
+    <link rel="stylesheet" href="//appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css">
+
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+
+    <script src="../../Scripts/microsoft.ews.js" type="text/javascript"></script>
+    <script src="../../Scripts/search.js" type="text/javascript"></script>
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+<body id="appBody">
+    <div id="loading" class="ms-font-xl">
+        <i class="ms-Icon ms-Icon--download" aria-hidden="true"></i>
+        <span>Retrieving folders...</span>
+    </div>
+    <form>
+        <input type="text" id="searchInput" style="width:1px;height:1px;position:absolute; top:-1000px; left:-1000px;"/>
+    </form>
+    <main class="Container" style="display:none;">
+        <!--<div class="Header ms-bgColor-blue">
+            <div class="Header-text">
+                <div class="u-contentCenter">
+                    <h1 class="ms-font-m-plus ms-fontColor-white" id="title">Foo</h1>
+                </div>
+            </div>
+        </div>-->
+        <div class="Content">
+
+            <div class="u-contentCenter">
+                <div class="Intro">
+                    <div class="ms-font-xl">
+                        <i class="ms-Icon ms-Icon--search" aria-hidden="true"></i>
+                        <span id="keyword">
+
+                            <span class="ms-fontColor-neutralTertiary">Start typing part of the folder name</span>
+                        </span>
+                    </div>
+                    <div id="searchResults"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
