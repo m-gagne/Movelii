@@ -4,6 +4,8 @@ This is a sample Outlook Office Add-In that makes it quick and easy to move emai
 
 It showcases how to get started with a Read App, Office.js & EWS (Exchange Web Services).
 
+![Movelii in Office 365 Web](http://mgagne.blob.core.windows.net/public/movelii.gif)
+
 More documentation soon.
 
 ## Getting Started
